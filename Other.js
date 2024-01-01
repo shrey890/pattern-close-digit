@@ -1,10 +1,9 @@
 let n = 5
-let x = ''
+let str = ''
 for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= i; j++) {
-        x += '*'
+        str += i
     }
-    x += '\n'
-
+    str += '\n'
 }
-console.log(x)
+console.log(str)

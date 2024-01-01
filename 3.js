@@ -1,13 +1,14 @@
-let n = 5
-let string = ''
+let n = 4
+let x = ''
 for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= n; j++) {
-        if (i === 1 || i === n || j === 1 || j === n) {
-            string += '⭐'
+        if (i === 1 || j === 1 || j === n || i === n) {
+            x += '*'
         } else {
-            string += '  '
+            x += ' '
         }
     }
-    string += '\n'
+    x += '\n'
 }
-console.log(string)
+console.log(x)
+
